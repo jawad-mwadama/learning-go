@@ -1,7 +1,7 @@
 package main
 
 import (
-	"example/hello/Values"
+	Values "example/hello/01.values"
 	"fmt"
 )
 
