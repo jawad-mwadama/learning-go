@@ -1,8 +1,9 @@
 package main
 
 import (
-	Values "example/hello/01.values"
-	Variables "example/hello/02.variables"
+	values "example/hello/01.values"
+	variables "example/hello/02.variables"
+	constants "example/hello/03.constants"
 	"fmt"
 )
 
@@ -10,6 +11,7 @@ func main() {
 
 	fmt.Println("Hello, World!")
 
-	Values.PrintValues()
-	Variables.GoVariables()
+	values.PrintValues()
+	variables.GoVariables()
+	constants.GetConstants()
 }
