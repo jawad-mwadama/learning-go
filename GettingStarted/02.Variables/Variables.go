@@ -19,7 +19,7 @@ func GoVariables() {
 	var e int
 	fmt.Println(e)
 
-	// the := syntax is shorthand dor declaring or initializinga variable. eg for var f string = "apple" in this case. This syntax is only available inside functions
+	// the := syntax is shorthand dor declaring or initializing a variable. eg for var f string = "apple" in this case. This syntax is only available inside functions
 	f := "apple"
 	fmt.Println(f)
 }

@@ -5,6 +5,7 @@ import (
 	variables "example/hello/02.variables"
 	constants "example/hello/03.constants"
 	loops "example/hello/04.For"
+	ifs "example/hello/05.ifs"
 	"fmt"
 )
 
@@ -16,4 +17,5 @@ func main() {
 	variables.GoVariables()
 	constants.GetConstants()
 	loops.ForLoops()
+	ifs.Ifs()
 }
